@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.imags  img{
+width: 700px; 
+height: 100vh;
+}
+
+.div{
+    width: 50%;
+    background-color:   rgb(222, 249, 135);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div input{
+    padding: 10px;
+    margin: 5px 0px;
+    background: none;
+    outline: none;
+    border: 2px solid black;
+    color: blue;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.div a{
+    text-decoration: none;
+    color: black;
+    margin: 5px 0px;
+}
+
+.div input[type="submit"]{
+    width: 200px;
+    background-color: white;
+    border: none;
+    color: red;
+    margin-top: 20px;
+    cursor: pointer;
+}
