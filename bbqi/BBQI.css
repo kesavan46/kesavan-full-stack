@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(1ujky.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-color: chocolate;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.nav{
+    color:aliceblue;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;   
+    color: rgb(255, 255, 255);
+}
+.conten{
+    padding: 200px;
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.second{
+    display: grid;
+    background-color: rgb(230, 146, 77);
+  
+
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    padding: 100px;
+}
+span{
+   padding: 100px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+
+.imgContainer{
+ background-color: white;
+ width: 300px; 
+ height: 300px;  
+}
+
+.imgContainer  .img{
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imgContainer .text{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dishContainer{
+    display: flex;
+    gap: 4rem;
+    margin-top: 0100px;
+}
+
+.img1{
+    background: #fff url('./service1.jpg') no-repeat center;
+  
+}
+.img2{
+    background: #fff url('./service2.jpg') no-repeat center;
+  
+}
+.img3{
+    background: #fff url('./service3.jpg') no-repeat center;
+  
+}
+
