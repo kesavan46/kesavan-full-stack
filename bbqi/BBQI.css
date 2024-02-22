@@ -8,7 +8,7 @@ body{
     background-image: url(1ujky.jpg);
     width: 100vw;
     background-repeat: no-repeat;
-    background-color: chocolate;
+    background-color: rgb(221, 215, 210);
 }
 .head{
     display: flex;
@@ -16,7 +16,7 @@ body{
    
 }
 .nav{
-    color:aliceblue;
+    color:chocolate;
 }
 ul{
     display: flex;
@@ -101,4 +101,34 @@ span{
     background: #fff url('./service3.jpg') no-repeat center;
   
 }
+.third{
+    
+    margin-top: 60px;
+    height: 500px;
+    text-align: center;  
+}
 
+.f{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;text-align: start;
+}
+
+.r{
+    width: 50%;
+}
+button{
+    border-style: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+footer{
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+}
